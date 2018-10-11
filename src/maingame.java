@@ -1,3 +1,10 @@
+//****************************************************************************************************************************
+// Golden Dice v1.0   Date 11/10/2018      Author: Ida Christensen
+//                                                 Gustav Nobert
+//  A dice game where 2 players                    Martin Grønlykke
+//  roll 2 dice untill there is a winner           Anders Eisenhardt
+//  which is defined by a set of rules             Alexander Abela
+//****************************************************************************************************************************
 import java.util.Scanner;
 
 public class maingame {
@@ -10,7 +17,7 @@ public class maingame {
 
         final int winningScore = 40;
 
-        while (true) {
+        while (true) { //Have the start menu in a while loop so that when the game is finished you can return to the menu
             System.out.println("-----------------------------------------\n" +
                                " Welcome to the game of the Golden dice\n" +
                                "-----------------------------------------\n" +
@@ -20,7 +27,7 @@ public class maingame {
                                "       (3)   To Exit press 3             \n" +
                                "-----------------------------------------\n");
 
-            String playerInput = scan.next();
+            String playerInput = scan.next(); // Makes 2 players
             if (playerInput.equals("1")) { // starter spil
                 int score1 = 0, score2 = 0;
                 System.out.println("Insert player 1 name: ");
