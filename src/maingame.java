@@ -2,7 +2,7 @@
 // Golden Dice v1.0   Date 11/10/2018      Author: Ida Christensen
 //                                                 Gustav Nobert
 //  A dice game where 2 players                    Martin Grønlykke
-//  roll 2 dice untill there is a winner           Anders Eisenhardt
+//  roll 2 dice untill there is a winner           Anders Eisenhardtw
 //  which is defined by a set of rules             Alexander Abela
 //****************************************************************************************************************************
 import java.util.Scanner;
